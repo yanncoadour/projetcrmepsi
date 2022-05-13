@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+
+
+
+body{
+    margin: 0;
+}
+
+header{
+    display: flex;
+}
+
+#logo-space{
+    width: 282px;
+    height: 248px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header-banner{
+
+    height: 248px;
+    position: relative;
+}
+#header-banner-image{
+    width: calc(100vw - 282px);
+    height: 248px;
+    object-fit: cover;
+}
+
+#header-logo{
+    height: 200px
+}
+
+#header-name-menu{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 117px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 25%;
+    left: 35%;
+}
+
+main{ display: flex;
+}
+
+.detail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    text-decoration: none;
+}
+
+#nav-menu{
+    background-color: #0D2A44;
+    width: 282px;
+    height: max-content;
+    padding-top: 30px;
+
+}
+
+#nav-profil-menu{
+    background-color: #0D2A44;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#nav-profil-menu img{
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+#nav-profil-menu hr{
+    width: 75%;
+}
+
+.iconify{
+    color: #FFFFFF;
+    width: 40px;
+    height: 40px;
+}
+
+.title-button-menu{
+    color : #FFFFFF;
+    font-family: 'Montserrat';
+    font-size: 20px;
+}
+
+.menu-touch :hover{
+    background-color: #367B0C;
+}
+
+
+.title-profil-menu{
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 20px;
+    margin-bottom: 3px;
+}
+
+.role-profil-menu{
+    color: #13b505;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 16px;
+
+}
+
+#menu-selected {
+    background-color: #367B0C;
+}
+
+#global-menu{
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 282px);;
+}
+
+#logout {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#container-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center ;
+
+}
+#container-content a{
+    text-decoration: none;
+}
+.menu-box {
+    display: inline;
+    border: 2px solid #367B0C;
+    width: 388px;
+    height: 248px;
+    border-radius: 32px;
+    background-image: url(../../image/images/Logo2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #E1EBDB;
+    margin : 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0D2A44;
+
+}
